@@ -1,0 +1,83 @@
+
+.container{
+    background-color: white;
+    margin: 2% 10% 2% 10%;
+    display: flex;
+    flex-flow: column;
+    
+}
+.titleContainer{
+    text-align: center;
+}
+
+.scoreContainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.scoreContainer-sub{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+
+.imageContainer{
+
+    margin: 2% 5% 2% 5%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.guessContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.guessMsg{
+    text-align: center;
+}
+
+.historyContainer{
+    text-align: center;
+}
+
+.guessInput{
+    margin-bottom: 2%;
+}
+.guessButton{
+    margin-bottom: .2%;
+}
+
+
+.hint-high {
+    color: blue
+}
+
+.hint-low {
+    color: darkgoldenrod;
+}
+
+.hint-success {
+    color: green;
+}
+
+.hint-fail {
+    color: red;
+}
+
+.hint-error {
+    color: purple;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number!</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="project.js">
+</head>
+
+<body>
+    <div class="container">
+        <div class="titleContainer">
+            <h1>Guess My Number</h1>
+            <p>Guess the number between 1 and 100</p>
+        </div>
+    
+        <div class= "scoreContainer">
+            <div class="scoreContainer-sub">
+                <div class="scores">
+                    <p>Number of Guesses: <span id="num-of-guess">10</span></p>
+                    <p>Highscore: <span id="highscore">0</span>
+                </div>
+                <div class="reset">
+                    <button type="button" id="reset-btn">Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="imageContainer">
+            <img id="guessImg" style="width:15%" src="https://bolderadvocacy.org/wp-content/uploads/2018/08/blue-icon-question-mark-image.png" alt="">
+        </div>
+
+        <div class="guessContainer">
+            <div class="guessInput">
+                <!-- <label for="guess">Guess a number</label> -->
+                <input type="number" id="guess" placeholder="Guess a number" >
+            </div>
+            <div class="guessButton">
+                <button id="check-btn" type="button" class="btn check">Check!</button>
+            </div>
+            
+            <div class="guessMsg"><p class="hint-msg">Guess a Number</p></div>
+            <!-- <p class="hint-msg">Guess a Number</p> -->
+        </div>
+
+        <div class="historyContainer">
+            <h3>Guess history:</h3>
+            <div id="history"></div>
+        </div>
+    </div>
+ 
+
+    <script src="project.js"></script>
+
+</body>
+</html>
+      
